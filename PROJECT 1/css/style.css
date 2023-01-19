@@ -1,0 +1,182 @@
+body {
+    border: 2px solid black;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  background: rgb(0, 0, 0);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+  sans-serif;
+  
+}
+body::before{
+    height: 100%;
+    content: "";
+    background: url("../../img/pexels-pixabay-235922.jpg") no-repeat center/cover;
+    /* background: url("../../img/pexels-rosemary-ketchum-1564466.jpg") no-repeat center/cover; */
+    background: url("../../img/np.jpg") no-repeat center/cover;
+    position: absolute;
+    width: 100%;
+    opacity: .8;
+    z-index: -1;
+    filter: blur(1px);
+}
+.left {
+    position: absolute;
+  left: 39px;
+  top: 10px;
+  /* display: inline-block; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  /* border: 2px solid rgb(228, 134, 134); */
+  border-radius: 12px;
+  background-color: rgb(243, 248, 255);
+}
+.left img {
+    border-radius: 12px;
+    display: block;
+    /* border-style: dotted; */
+    width: 50px;
+    float: left;
+    border-width: 2px;
+    /* filter: invert(); */
+}
+.left abbr {
+  text-align: center;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 6px;
+  color: rgb(62, 8, 83);
+  text-decoration: none;
+}
+
+.mid {
+  background-color: rgb(135, 228, 158);
+  display: block;
+  width: 35%;
+  margin: 30px auto;
+  /* border: 2px solid rgb(45 154 149); */
+  border-radius: 12px;
+}
+.right {
+  position: absolute;
+  right: 34px;
+  border-radius: 12px;
+  top: 20px;
+  display: inline-block;
+  /* border: 2px solid rgb(54, 238, 183); */
+}
+.btn {
+  margin: 5px 5px;
+  color: rgb(26, 23, 12);
+  padding: 2px 4px;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 100px;
+  background-color: rgb(230, 238, 237);
+  transition: all .2s ease-in-out ;
+  cursor: pointer;
+}
+.btn:hover,#btn1:hover {
+  /* color: blanchedalmond; */
+  padding: 6px;
+}
+.navbar {
+  display: inline-block;
+  /* padding: auto 10px; */
+  position: relative;
+  left: -10px;
+}
+.navbar li {
+  display: inline;
+  font-size: 18px;
+  padding: 0px 5px;
+}
+.navbar a {
+  color: rgb(128, 50, 31);
+  text-decoration: none;
+  padding: 0px 10px;
+  font-family: "Baloo Bhai 2", "cursive";
+}
+.navbar a:hover{
+  text-decoration: underline;
+  color: rgb(0, 26, 255);
+}
+.container {
+  border: 8px solid rgb(124, 206, 103,.7);
+  margin: 92px;
+  padding: 42px;
+  width: 40%;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: white;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+  /* position: relative; */
+  /* overflow: auto; */
+}
+.form-group {
+  font-size: 20px;
+}
+.form-group input,
+select {
+  text-align: center;
+  margin: 5px 04px;
+  border-radius: 5px;
+  line-height: 20px;
+  border: 1px solid rgb(167, 190, 161);
+}
+
+.details {
+  border: 2px solid darkblue;
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgb(186, 212, 169);
+  margin-left: 92px;
+  border-radius: 5px;
+}
+.chat{
+  border: 2px solid lightcoral;
+  position: fixed;
+  background-color: rgb(224, 171, 171);
+  width: 150px;
+  line-height: 50px;
+  text-align: center;
+  text-align: center;
+  right: 12px;
+  font-size: 25px;
+  bottom: 10px;
+  border-radius: 4px;
+  }
+  #sure{
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(159, 116, 202,.6);
+    position: sticky;
+    top: 12px;
+    font-size: 20px;
+    border-radius: 12px;
+    
+  }
+  .container h1 {
+    text-align: center;
+    color: antiquewhite;
+    backdrop-filter: blur(8px);
+    background: rgb(0, 0, 0,.4);
+    border-radius: 20px;
+    border: 2px solid rgb(88, 193, 192);
+  }
+
+#btn1{
+ /* display: block; */
+ /* margin: auto; */
+ position: absolute;
+ top: 90%;
+ left: 45%;
+ background-color: rgb(50, 232, 232);
+ border: 2px none;
+ border-radius:6px ;
+ font-size: 20px;
+ transition: all .2s ease-in-out ;
+}

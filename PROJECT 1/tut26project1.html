@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vivek fitness</title>
+    <link rel="stylesheet" href="HTML & CSS/style.css" />
+  </head>
+  <!-- when element goes out of the page (by positioning) it acts like display inline block -->
+  <!-- inlined element width changes also by padding -->
+<!-- backdrop filter doesnt work with position fixed  -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600;800&family=Bebas+Neue&family=Rubik+Beastly&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./css/style.css">
+
+  <body>
+      <div class="chat">
+          chat with us
+      </div>
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+        <img src="../img/4.jpg" alt="" />
+       <abbr title="Viveka's new club">Vivek Fitness</abbr>
+      </div>
+
+      <!-- mid box for logo -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- right box for logo -->
+      <div class="right">
+        <button class="btn">Email Us</button>
+        <button class="btn">Call Us Now</button>
+      </div>
+    </header>
+    <header class="details">fill the details</header>
+
+    <div class="container">
+
+      <h1>The Best GYM in the World</h1>
+      <div id="sure">Make sure you filled the form</div>
+      <form action="tut26project1.html">
+        <div class="form-group">
+          Name &nbsp; <input type="text" placeholder="Enter Your Full Name" />
+
+          Are you?
+          <select name="are you" id="">
+            <option value="Select one" selected>Select one</option>
+            <option value="Student">Student</option>
+            <option value="Job person">Job person</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Wrestler">Wrestler</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <br />
+          Age &nbsp; &nbsp;&nbsp;
+          <input type="text" placeholder="Enter Your age" />
+        </div>
+        <div class="form-group">
+          Sex :- &nbsp;&nbsp; female <input type="radio" name="sex" /> male
+          <input type="radio" name="sex" />
+        </div>
+        <div class="form-group">
+          Adress &nbsp;&nbsp;
+          <input type="text" placeholder="Enter Your Address" /> 
+          Pincode  <input type="text" placeholder="Enter Your pincode" />
+        </div>
+        <div class="form-group">
+          Father's name
+          <input  style="width: 75%"  type="text"   placeholder="Enter Your Father's full Name"  />
+        </div>
+        <div class="form-group">
+          Mother's name
+          <input style="width: 74%"  type="text" placeholder="Enter Your Mother's full Name" />
+        </div>
+        <div class="form-group">
+          Email id &nbsp;
+          <input type="text" placeholder="Enter Your EmailAddress" /> 
+          Mobile No  <input type="number" placeholder="Enter Contact Number" />
+        </div>
+        <input type="submit" id="btn1">Submit</input>
+      </form>
+    </div>
+    
+  </body>
+</html>
